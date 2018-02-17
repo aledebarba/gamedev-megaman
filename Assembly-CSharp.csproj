@@ -51,10 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\InimigoScript.cs" />
      <Compile Include="Assets\ProjetilScript.cs" />
      <Compile Include="Assets\Script\armaScript.cs" />
      <Compile Include="Assets\Script\Blink.cs" />
      <Compile Include="Assets\Script\Player.cs" />
+     <Compile Include="Assets\SubInimigoScript.cs" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
