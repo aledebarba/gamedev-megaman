@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gamedev-megaman", "Assembly-CSharp.csproj", "{B4102D3F-6E3F-DA0E-68C8-0DCAF1849BCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gamedev-megaman", "Assembly-CSharp-firstpass.csproj", "{AF9EDEB9-57D3-CAE3-5733-A6E32FF03143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gamedev-megaman", "Assembly-CSharp-Editor-firstpass.csproj", "{5DCF2AE0-76DF-7DA8-01B6-221B66B57F30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{B4102D3F-6E3F-DA0E-68C8-0DCAF1849BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4102D3F-6E3F-DA0E-68C8-0DCAF1849BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4102D3F-6E3F-DA0E-68C8-0DCAF1849BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9EDEB9-57D3-CAE3-5733-A6E32FF03143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9EDEB9-57D3-CAE3-5733-A6E32FF03143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9EDEB9-57D3-CAE3-5733-A6E32FF03143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9EDEB9-57D3-CAE3-5733-A6E32FF03143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCF2AE0-76DF-7DA8-01B6-221B66B57F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCF2AE0-76DF-7DA8-01B6-221B66B57F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCF2AE0-76DF-7DA8-01B6-221B66B57F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCF2AE0-76DF-7DA8-01B6-221B66B57F30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

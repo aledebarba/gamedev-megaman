@@ -74,3 +74,4 @@ C:\games\gamedev-megaman\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
 C:\games\gamedev-megaman\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\games\gamedev-megaman\obj\Debug\Assembly-CSharp.dll
 C:\games\gamedev-megaman\obj\Debug\Assembly-CSharp.pdb
+C:\games\gamedev-megaman\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

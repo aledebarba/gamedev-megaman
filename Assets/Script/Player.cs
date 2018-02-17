@@ -6,13 +6,12 @@ public class Player : MonoBehaviour {
 
 	public float velocidade;
 	public float impulso;
-	public Transform chaoVerificador;
-	Animator animator;
-
-	SpriteRenderer spriteRender;
-	Rigidbody2D rb;
 	bool estaNoChao;
 
+	public Transform chaoVerificador;
+	Animator animator;
+	SpriteRenderer spriteRender;
+	Rigidbody2D rb;
 
 	// Use this for initialization
 	void Start () {
@@ -48,13 +47,9 @@ public class Player : MonoBehaviour {
 			animator.SetFloat ("jumping", 1.0f);
 		} 
 
-		// faz o flip do personagem
-		if (mover_x > 0) {
-			spriteRender.flipX = false;	
-		} else if (mover_x < 0) {
-			spriteRender.flipX = true;
+		// faz o flip de acordo com o valor de move_x 
+		if (mover_x != 0) {
+			spriteRender.flipX = mover_x < 0;
 		}
-
-
 	}
 }

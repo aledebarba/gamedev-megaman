@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - bloco
+  - Projetil
   layers:
   - Default
   - TransparentFX
