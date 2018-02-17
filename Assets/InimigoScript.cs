@@ -7,10 +7,13 @@ public class InimigoScript : MonoBehaviour {
 
 	public int vidas;
 	public GameObject peixePrefab;
+
 	public Transform gerarPeixes;
 	public float intervalo;
 
+
 	IEnumerator Start () {
+
 		Instantiate (peixePrefab, 
 			gerarPeixes.position,
 			gerarPeixes.rotation);
@@ -18,7 +21,7 @@ public class InimigoScript : MonoBehaviour {
 		StartCoroutine (Start ());
 	}
 
-	void onCollisionEnter2D (Collision2D collision) {
+	void OnCollisionEnter2D (Collision2D collision) {
 		if (collision.gameObject.tag == "Projetil") {
 			// Dano no inimigo
 			vidas--;
